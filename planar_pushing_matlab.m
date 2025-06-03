@@ -131,7 +131,7 @@ end
 % the box has 3-1=2 degrees of freedom (sliding and rotating). As a result, the covariance of its 
 % pose (x,y,theta) is rank 2, which is degenerate. But when plotting its x-y covariance ellipse above,
 % we're marginalizing that covariance to only (x,y). This marginalized covariance is still rank 2,
-% meaning it is not degenerate, so the ellipse is not a line but has some width.
+% meaning it is full-rank in (x,y), so the ellipse is not a line but has some width.
 
 % Small note: this is slightly different than in the ICRA presentation on Youtube (and in the paper),
 % which instead plots the end-pose covariance at each timestep given the trajectory so far, since it
