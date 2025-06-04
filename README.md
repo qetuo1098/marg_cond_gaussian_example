@@ -1,6 +1,6 @@
-Example code for our paper [1]: https://arxiv.org/abs/2409.09871
+This is the example code for our paper [1], which can be fouund here: https://arxiv.org/abs/2409.09871
 
-Instruction: run planar_pushing_matlab.m
+**Instruction**: run planar_pushing_matlab.m
 
 This script illustrates our method of covariance extraction in a constrained toy localization problem. It uses a miniature version of the box-pushing scenario used in our third experiment [1]. We took this scenario from InCOpt [2], a version of GTSAM [3] that accounts for hard constraints.
 
