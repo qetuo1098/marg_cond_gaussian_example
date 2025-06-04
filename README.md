@@ -1,11 +1,15 @@
-This is the example code for our paper [1], which can be fouund here: https://arxiv.org/abs/2409.09871
+This is the example code for our paper [1], which can be found here: https://arxiv.org/abs/2409.09871
 
 **Instruction**: run planar_pushing_matlab.m
+
+## Description
 
 This script illustrates our method of covariance extraction in a constrained toy localization problem. It uses a miniature version of the box-pushing scenario used in our third experiment [1]. We took this scenario from InCOpt [2], a version of GTSAM [3] that accounts for hard constraints.
 
 The scenario in this script is similar to the 2D planar pushing example used in [1,2], but is simplified and reimplemented in MATLAB.
 The original experiment in [1] involved a number of modifications to [2], which was on top of an old version of the GTSAM repo [4]. To avoid instructions on installing heavy and old libraries, and to focus more on the covariance extraction section, we show a simpler version in this script.
+
+## References
 
 [1] Z. C. Guo, J. R. Forbes, and T. D. Barfoot, "Marginalizing and Conditioning Gaussians onto Linear Approximations of Smooth Manifolds with Applications in Robotics," in IEEE ICRA, 2025.
 
